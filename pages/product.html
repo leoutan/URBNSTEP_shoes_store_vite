@@ -10,38 +10,38 @@
     <%- include('./layout/header'); -%>
 
     <main class="container">
-      <div class="row py-64">
-        <div class="col-7">
+      <div class="row py-64 py-md-0">
+        <div class="col-7 col-md-4">
           <div class="product-row">
-            <div class="product-col-6 mb-8">
+            <div class="product-col-6 mb-8 product-col">
               <img src="/assets/images/week2/image.png" alt="PLATFORM 404 view1" />
             </div>
-            <div class="product-col-6 mb-8">
+            <div class="product-col-6 mb-8 d-md-none">
               <img src="/assets/images/week2/image-1.png" alt="PLATFORM 404 view1" />
             </div>
-            <div class="product-col-6 mb-8">
+            <div class="product-col-6 mb-8 d-md-none">
               <img src="/assets/images/week2/image-2.png" alt="PLATFORM 404 view1" />
             </div>
-            <div class="product-col-6 mb-8">
+            <div class="product-col-6 mb-8 d-md-none">
               <img src="/assets/images/week2/image-3.png" alt="PLATFORM 404 view1" />
             </div>
-            <div class="product-col-6 mb-8">
+            <div class="product-col-6 mb-8 d-md-none">
               <img src="/assets/images/week2/image-4.png" alt="PLATFORM 404 view1" />
             </div>
-            <div class="product-col-6 mb-8">
+            <div class="product-col-6 mb-8 d-md-none">
               <img src="/assets/images/week2/image-5.png" alt="PLATFORM 404 view1" />
             </div>
-            <div class="product-col-6 mb-8">
+            <div class="product-col-6 mb-8 d-md-none">
               <img src="/assets/images/week2/image-6.png" alt="PLATFORM 404 view1" />
             </div>
-            <div class="product-col-6 mb-8">
+            <div class="product-col-6 mb-8 d-md-none">
               <img src="/assets/images/week2/image-7.png" alt="PLATFORM 404 view1" />
             </div>
           </div>
         </div>
-        <div class="col-5">
+        <div class="col-5 col-md-4">
           <!-- 麵包屑導覽 -->
-          <nav class="mb-12">
+          <nav class="mb-12 mb-md-8">
             <ol class="d-flex">
               <li class="bread-item">
                 <a href="#" class="bread-link">首頁</a>
@@ -57,9 +57,9 @@
           </nav>
           <!-- 商品介紹 -->
           <div class="mb-32">
-            <h1 class="h2 mb-16">Platform 404</h1>
-            <p class="h5 text-primary-400 mb-16 me-8">
-              NT$2,600 <del class="origin-price p-sm">$3,200</del>
+            <h1 class="h2 h4-md mb-16 mb-md-12">Platform 404</h1>
+            <p class="h5 h6-md text-primary-400 mb-16 mb-md-12 me-8">
+              NT$2,600<del class="origin-price">$3,200</del>
             </p>
             <p class="mb-12">
               Platform 404
@@ -70,7 +70,7 @@
             </p>
           </div>
           <!-- 商品顏色 -->
-          <div class="mb-32">
+          <div class="mb-32 mb-md-24">
             <h3 class="mb-8">顏色</h3>
             <div class="d-flex align-center">
               <div class="color-card me-8">
@@ -84,7 +84,7 @@
             </div>
           </div>
           <!-- 商品尺寸 -->
-          <div class="mb-48">
+          <div class="mb-48 mb-md-24">
             <h3 class="mb-8">尺寸</h3>
             <div class="d-flex flex-wrap gap-8 mb-8">
               <button type="button" class="btn size-btn active">
@@ -96,10 +96,10 @@
               <button type="button" class="btn size-btn">39(24.5cm)</button>
               <button type="button" class="btn size-btn">40(25.0cm)</button>
               <button type="button" class="btn size-btn">41(26.0cm)</button>
-              <button type="button" class="btn size-btn" disabled>
+              <button type="button" class="btn size-btn no-size" disabled>
                 42(26.5cm)
               </button>
-              <button type="button" class="btn size-btn" disabled>
+              <button type="button" class="btn size-btn no-size" disabled>
                 43(27.0cm)
               </button>
             </div>
@@ -107,12 +107,20 @@
           </div>
 
           <!-- 收藏預約 -->
-          <div class="action-btn mb-32">
+          <div class="desktop-action-btn mb-32">
             <button type="button" class="btn btn-light">
               <i class="bi bi-heart"></i>加入收藏
             </button>
             <button type="button" class="btn btn-dark">
               <i class="bi bi-handbag"></i>門市預約試穿
+            </button>
+          </div>
+          <div class="mobile-action-btn mb-32">
+            <button type="button" class="btn btn-dark flex-1 me-md-8">
+              <i class="bi bi-handbag me-md-8"></i>門市預約試穿
+            </button>
+            <button type="button" class="btn btn-light btn-icon">
+              <i class="bi bi-heart"></i>
             </button>
           </div>
           <!-- 材質 -->
@@ -144,31 +152,31 @@
         </div>
       </div>
       <!-- 你可能喜歡 -->
-      <div class="py-48 mb-40">
-        <h4 class="h4 mb-16">你可能也喜歡...</h4>
-        <div class="row">
-          <div class="col-3">
+      <div class="py-48 py-md-40 mb-40">
+        <h4 class="h4 h5-md mb-16 mb-md-24">你可能也喜歡...</h4>
+        <div class="row maybeLikeList">
+          <div class="col-3 maybeLikeCard">
             <a href="product.html">
               <img src="/assets/images/week2/product-2.png" alt="VM001" class="mb-12" />
               <h6 class="h6 mb-4">VM001</h6>
               <p>NT$2,600</p>
             </a>
           </div>
-          <div class="col-3">
+          <div class="col-3 maybeLikeCard">
             <a href="product.html">
               <img src="/assets/images/week2/product-3.png" alt="VM001" class="mb-12" />
               <h6 class="h6 mb-4">Melty Kiss</h6>
               <p>NT$4,000</p>
             </a>
           </div>
-          <div class="col-3">
+          <div class="col-3 maybeLikeCard">
             <a href="product.html">
               <img src="/assets/images/week2/product-4.png" alt="VM001" class="mb-12" />
               <h6 class="h6 mb-4">BOOMBLOK</h6>
               <p>NT$3,200</p>
             </a>
           </div>
-          <div class="col-3">
+          <div class="col-3 maybeLikeCard">
             <a href="product.html">
               <img src="/assets/images/week2/product-7.png" alt="VM001" class="mb-12" />
               <h6 class="h6 mb-4">Sugar Snap</h6>

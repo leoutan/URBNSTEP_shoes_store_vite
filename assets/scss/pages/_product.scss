@@ -14,8 +14,17 @@
   padding-left: 4px;
   padding-right: 4px;
 }
+@media (max-width: 767px) {
+  .product-col {
+    width: 100%;
+  }
+}
 .origin-price {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
   color: $color-neutral-500;
+  margin-left: 8px;
 }
 .color-card {
   width: 64px;
@@ -31,15 +40,34 @@
 .size-btn.active, .size-btn:hover {
   border: 1px solid $color-neutral-900;
 }
-.action-btn {
+.no-size {
+  pointer-events: none
+}
+.desktop-action-btn {
   display: flex;
   gap: 8px;
 }
-.action-btn .btn {
+.desktop-action-btn .btn {
   width: 50%;
 }
-.action-btn .bi {
+.desktop-action-btn .bi {
   margin-right: 8px;
+}
+.mobile-action-btn {
+  display: none;
+}
+@media(max-width: 576px) {
+  .desktop-action-btn {
+    display: none;
+  }
+  .mobile-action-btn {
+    display: flex;
+  }
+  .btn-icon {
+    width: 48px;
+    padding: 12px;
+    border: none
+  }
 }
 .info-title {
   font-weight: 500;
@@ -49,4 +77,25 @@
 }
 .info-item {
   border-bottom: 1px solid $color-neutral-300;
+}
+
+
+@media (max-width: 576px) {
+  .maybeLikeList {
+    margin-left: -8px;
+    margin-right: -8px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    /* iOS 滑動順暢 */
+    /* 卡片間距 */
+    padding-right: 60px;
+    /* 預留右邊空間 */
+  }
+  .maybeLikeCard {
+    flex: 0 0 316px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
 }

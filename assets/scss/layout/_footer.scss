@@ -6,3 +6,9 @@
   text-align: center;
   border-top: 1px solid $color-neutral-300;
 }
+
+@media (max-width: 576px) {
+  .register-btn {
+    padding: 8px 16px;
+  }
+}

@@ -143,6 +143,9 @@
 .flex-wrap {
   flex-wrap: wrap;
 }
+.flex-1 {
+  flex: 1px;
+}
 .gap-8 {
   gap: 8px;
 }
@@ -258,6 +261,10 @@
   padding-top: 32px;
   padding-bottom: 32px;
 }
+.py-48 {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
 .py-64 {
   padding-top: 64px;
   padding-bottom: 64px;
@@ -310,6 +317,10 @@
   .p-md-24 {
     padding: 24px;
   }
+  .py-md-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
   .py-md-16 {
     padding-top: 16px;
     padding-bottom: 16px;
@@ -322,9 +333,16 @@
     padding-top: 32px;
     padding-bottom: 32px;
   }
+  .py-md-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
   .py-md-87 {
     padding-top: 87px;
     padding-bottom: 87px;
+  }
+  .me-md-8 {
+    margin-right: 8px;
   }
   .mb-md-0 {
     margin-bottom: 0;
