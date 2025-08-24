@@ -1,0 +1,20 @@
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+body{
+  font-family: "Noto Sans TC", serif;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  color: $color-neutral-900;
+}
+img{
+  max-width: 100%;
+  vertical-align: middle;
+  height: auto;
+}
+a{
+  display: block;
+  color: $color-neutral-900;
+  font-weight: 500;
+  text-decoration: none;
+}

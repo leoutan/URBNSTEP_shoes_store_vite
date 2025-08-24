@@ -1,0 +1,15 @@
+.bread-item+.bread-item::before {
+  content: '/';
+  padding: 0 12px;
+  color: $color-neutral-300;
+  font-weight: 700;
+}
+
+.bread-link {
+  color: $color-neutral-600;
+}
+
+.bread-item {
+  display: flex;
+  font-weight: 500;
+}

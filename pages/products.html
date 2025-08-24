@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <main class="container">
+      <!-- 麵包屑導覽 -->
+      <nav class="mb-24">
+        <ol class="d-flex">
+          <li class="bread-item"><a href="" class="bread-link">首頁</a></li>
+          <li class="bread-item">所有商品</li>
+        </ol>
+      </nav>
+      <h2 class="h3 mb-24">所有商品</h2>
+
+      <div class="row">
+        <!-- category -->
+        <div class="col-2">
+          <nav>
+            <ul class="category">
+              <li class="mb-16">
+                <a href="products.html" class="py-12 active">所有商品</a>
+              </li>
+              <li class="mb-16">
+                <a href="products.html" class="py-12">慢跑鞋</a>
+              </li>
+              <li class="mb-16">
+                <a href="products.html" class="py-12">滑板鞋</a>
+              </li>
+              <li class="mb-16">
+                <a href="products.html" class="py-12">厚底鞋</a>
+              </li>
+              <li class="">
+                <a href="products.html" class="py-12">限定 / 聯名企劃</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- products list -->
+        <div class="col-10">
+          <div class="row">
+            <div class="col-4">
+              <div class="mb-48">
+                <a href="product.html">
+                  <img
+                    src="/assets/images/week2/product-1.png"
+                    alt="PLATFORM 404 img"
+                    class="mb-12"
+                  />
+                  <h2 class="h6 mb-4">PLATFORM 404</h2>
+                  <p class="l-md">NT$2,600</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="mb-48">
+                <a href="product.html">
+                  <img
+                    src="/assets/images/week2/product-2.png"
+                    alt="PLATFORM 404 img"
+                    class="mb-12"
+                  />
+                  <h2 class="h6 mb-4">PLATFORM 404</h2>
+                  <p class="l-md">NT$2,600</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="mb-48">
+                <a href="product.html">
+                  <img
+                    src="/assets/images/week2/product-3.png"
+                    alt="VM001 img"
+                    class="mb-12"
+                  />
+                  <h2 class="h6 mb-4">VM001</h2>
+                  <p class="l-md">NT$2,600</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="mb-48">
+                <a href="product.html">
+                  <img
+                    src="/assets/images/week2/product-4.png"
+                    alt="VM001 img"
+                    class="mb-12"
+                  />
+                  <h2 class="h6 mb-4">VM001</h2>
+                  <p class="l-md">NT$2,600</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="mb-48">
+                <a href="product.html">
+                  <img
+                    src="/assets/images/week2/product-5.png"
+                    alt="VM001 img"
+                    class="mb-12"
+                  />
+                  <h2 class="h6 mb-4">VM001</h2>
+                  <p class="l-md">NT$2,600</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="mb-48">
+                <a href="product.html">
+                  <img
+                    src="/assets/images/week2/product-6.png"
+                    alt="VM001 img"
+                    class="mb-12"
+                  />
+                  <h2 class="h6 mb-4">VM001</h2>
+                  <p class="l-md">NT$2,600</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="mb-48">
+                <a href="product.html">
+                  <img
+                    src="/assets/images/week2/product-7.png"
+                    alt="VM001 img"
+                    class="mb-12"
+                  />
+                  <h2 class="h6 mb-4">VM001</h2>
+                  <p class="l-md">NT$2,600</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="mb-48">
+                <a href="product.html">
+                  <img
+                    src="/assets/images/week2/product-8.png"
+                    alt="VM001 img"
+                    class="mb-12"
+                  />
+                  <h2 class="h6 mb-4">VM001</h2>
+                  <p class="l-md">NT$2,600</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="mb-48">
+                <a href="product.html">
+                  <img
+                    src="/assets/images/week2/product-9.png"
+                    alt="VM001 img"
+                    class="mb-12"
+                  />
+                  <h2 class="h6 mb-4">VM001</h2>
+                  <p class="l-md">NT$2,600</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- paginator -->
+      <ul class="d-flex justify-center align-center mb-48">
+        <li class="me-12 paginator-item arrow">
+          <a href="#"
+            ><button type="button" class="btn">
+              <i class="bi bi-chevron-left"></i></button
+          ></a>
+        </li>
+        <li class="me-8 paginator-item">
+          <a href="#"><button type="button" class="btn active">1</button></a>
+        </li>
+        <li class="me-8 paginator-item">
+          <a href="#"><button type="button" class="btn">2</button></a>
+        </li>
+        <li class="me-8 paginator-item">
+          <a href="#"><button type="button" class="btn">3</button></a>
+        </li>
+        <li class="me-8 paginator-item">
+          <a href="#">...</a>
+        </li>
+        <li class="me-8 paginator-item">
+          <a href="#"><button type="button" class="btn">10</button></a>
+        </li>
+        <li class="paginator-item arrow">
+          <a href="#"
+            ><button type="button" class="btn">
+              <i class="bi bi-chevron-right"></i></button
+          ></a>
+        </li>
+      </ul>
+    </main>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
