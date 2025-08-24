@@ -13,3 +13,12 @@
   display: flex;
   font-weight: 500;
 }
+@media (max-width: 576px) {
+  .bread-item {
+    font-size: 14px;
+    &+.bread-item::before {
+        padding: 0 8px;
+    }
+
+  }
+}

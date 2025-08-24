@@ -77,6 +77,11 @@
   .h6-sm {
     font-size: 16px;
   }
+  .l-sm-sm {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+  }
 }
 .text-white {
   color: $color-neutral-0;
@@ -305,6 +310,10 @@
   .p-md-24 {
     padding: 24px;
   }
+  .py-md-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
   .py-md-24 {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -317,6 +326,9 @@
     padding-top: 87px;
     padding-bottom: 87px;
   }
+  .mb-md-0 {
+    margin-bottom: 0;
+  } 
   .mb-md-8 {
     margin-bottom: 8px;
   }
@@ -325,6 +337,9 @@
   }
   .mb-md-16 {
     margin-bottom: 16px;
+  }
+  .mb-md-24 {
+    margin-bottom: 24px;
   }
   .mb-md-32 {
     margin-bottom: 32px;
@@ -335,6 +350,10 @@
   .px-sm-12 {
     padding-left: 12px;
     padding-right: 12px;
+  }
+  .py-sm-9-5 {
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
   }
   .py-sm-12 {
     padding-top: 12px;
@@ -356,5 +375,8 @@
   }
   .mb-sm-4 {
     margin-bottom: 4px;
+  }
+  .mb-sm-12 {
+    margin-bottom: 12px;
   }
 }
